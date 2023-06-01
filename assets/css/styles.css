@@ -1,0 +1,1453 @@
+.node.css1 > .wrapper1 { background-color: rgb(0, 0, 0) }
+.node.css1  { color: #FFF }
+.node.css1  > .padding_top { padding-top: 9px }
+.node.css1  > .padding_bottom { padding-bottom: 9px }
+.node.css1 a { color: rgb(230, 25, 25) }
+.node.css2  { color: #FFF; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css2 a { color: rgb(230, 25, 25) }
+.textable.css3  { text-align: left; font-family: "PT Sans"; font-size: 20px; line-height: 1.1; letter-spacing: 0em; opacity: 1 }
+.btn.css4 { text-align: center } .btn.css4 { background-color: rgba(0, 0, 0, 0);border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;border-bottom-left-radius: 5px;border-style: solid;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px;border-right-width: 0px;border-color: rgb(0, 0, 0);padding-top: 5px;padding-bottom: 5px;font-size: 14px;color: rgb(255, 255, 255)!important; } .btn.css4:hover, .btn.css4.hover { background-color: rgb(255, 255, 255);border-color: rgb(30, 32, 50);color: rgb(252, 85, 81)!important; } .btn.css4:active, .btn.css4.active { background-color: rgba(255, 255, 255, 0);border-color: rgb(204, 204, 204);color: rgb(252, 85, 81)!important; } .btn.css4:before {  } .btn.css4:active:before, .btn.css4.active:before { background-color: rgba(255, 255, 255, 0); }
+.btn.css5 { text-align: center } .btn.css5 { background-color: rgba(252, 85, 81, 0);border-top-left-radius: 25px;border-top-right-radius: 25px;border-bottom-right-radius: 25px;border-bottom-left-radius: 25px;border-style: solid;border-top-width: 1px;border-bottom-width: 1px;border-left-width: 1px;border-right-width: 1px;border-color: rgb(251, 20, 15);padding-top: 10px;padding-bottom: 10px;font-size: 12px;font-weight: bold;color: rgb(252, 85, 81)!important; } .btn.css5:hover, .btn.css5.hover { background-color: rgb(252, 52, 48);border-color: rgb(252, 85, 81);color: rgb(255, 255, 255)!important; } .btn.css5:active, .btn.css5.active { background-color: rgb(252, 52, 48);border-color: rgb(236, 9, 3);color: rgb(255, 255, 255)!important; } .btn.css5:before {  } .btn.css5:active:before, .btn.css5.active:before { background-color: rgb(252, 52, 48); }
+.modal.css6 .modal-dialog { width: 410px }
+.metahtml.css7 .modal1-root {
+  border-radius: 10px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transform: scale(1.1);
+  transition: 300ms all ease-in;
+}
+
+.metahtml.css7 .modal1-root.is-active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.metahtml.css7 .modal1-root.is-hiding {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.metahtml.css7 .modal1-panel {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgb(250, 250, 250);
+}
+
+.metahtml.css7 .modal1-divider {
+  margin-top: 10px;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.05);
+  margin-bottom: 10px;
+}
+
+.metahtml.css7 .modal1-close {
+  cursor: pointer;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 100px;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  top: -10px;
+  right: -10px;
+  transition: transform 200ms;
+}
+
+.metahtml.css7 .modal1-close-h,
+.metahtml.css7 .modal1-close-v {
+  background-color: black;
+  display: block;
+  width: 16px;
+  height: 2px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.metahtml.css7 .modal1-close-h {
+  transform: translate(-50%, -50%) rotate(135deg);
+}
+
+.metahtml.css7 .modal1-close-v {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.metahtml.css7 .modal1-close:hover {
+  transform: scale(1.1);
+}
+.node.css8  { color: #333; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css8 a { color: rgb(230, 25, 25) }
+.metahtml.css9 .form1-cover {
+  padding: 20px 15px;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(252, 85, 81);
+  border-style: none;
+  border-width: 2px;
+  border-radius: 5px;
+  box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+.node.css10  { color: #333; padding-top: 20px; padding-bottom: 20px; padding-left: 5px; padding-right: 5px }
+.node.css10 a { color: rgb(230, 25, 25) }
+.textable.css11  { text-align: center; font-family: "TTNorms Regular"; font-size: 20px; line-height: 1.1; letter-spacing: 0.04em; opacity: 1 }
+.screen-xs .textable.css11  { text-align: center!important }
+.node.css12  { color: #333; padding-top: 5px; padding-bottom: 5px; padding-left: 10px; padding-right: 10px }
+.node.css12 a { color: rgb(230, 25, 25) }
+.metahtml.css13 [cr-field] {
+  padding-bottom: 14px;
+  font-size: 14px;
+  font-family: Open Sans;
+}
+
+.metahtml.css13 .name {
+  font-weight: normal;
+  font-family: Open Sans;
+  opacity: 0.8;
+  margin-bottom: 6.5px;
+  font-size: 13px;
+  word-wrap: break-word;
+  text-transform: uppercase;;
+  letter-spacing: 0.1em;;
+}
+
+.metahtml.css13 .form-control {
+  height: auto;
+  line-height: 1.2;
+  box-shadow: none;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 0px;
+  padding: 12px 9.6px;
+  font-size: 14px;
+  cursor: initial;
+}
+
+.metahtml.css13 .form-control:focus,
+.metahtml.css13 .form-control:focus-within {
+  border-color: rgb(252, 85, 81);
+  background-color: rgb(252, 252, 252);
+}
+
+.metahtml.css13 .form-control + .form-control {
+  margin-top: 10px;
+}
+
+.metahtml.css13 label {
+  font-weight: normal;
+  display: block;
+  cursor: pointer;
+}
+
+.metahtml.css13 textarea {
+  resize: vertical;
+}
+
+.metahtml.css13 .checkbox {
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  margin: 0 5.5px 0 0;
+  line-height: 0;
+  min-height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  background: white;
+  border: 2px solid rgba(0, 0, 0, 0.25);
+  position: relative;
+  transition: 300ms all;
+  border-radius: 2px;
+}
+
+.metahtml.css13 .checkbox svg {
+  width: 100%;
+  opacity: 0;
+  transform: scale(0);
+  transition: 300ms all;
+}
+
+.metahtml.css13 input:hover ~ .checkbox,
+.metahtml.css13 input:focus ~ .checkbox {
+  border-color: rgb(254, 170, 168);
+}
+
+.metahtml.css13 input:checked ~ .checkbox {
+  border-color: rgb(252, 52, 48);
+  background-color: rgb(252, 85, 81);
+}
+
+.metahtml.css13 input:active ~ .checkbox {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.metahtml.css13 input:checked ~ .checkbox svg {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.metahtml.css13 .radio {
+  margin: 0;
+  margin: 0 5.5px 0 0;
+  padding: 0;
+  line-height: 0;
+  width: 22px;
+  height: 22px;
+  min-height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  background: white;
+  border: 2px solid rgba(0, 0, 0, 0.25);
+  position: relative;
+  transition: 300ms all;
+  border-radius: 100px;
+}
+
+.metahtml.css13 .radio:before {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 0;
+  height: 100%;
+  content: '';
+  display: block;
+  background-color: white;
+  border-radius: 100px;
+  opacity: 0;
+  transform: scale(0);
+  transition: 300ms all;
+}
+
+.metahtml.css13 input:hover ~ .radio,
+.metahtml.css13 input:focus ~ .radio {
+  border-color: rgb(254, 170, 168);
+}
+
+.metahtml.css13 input:active ~ .radio {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.metahtml.css13 input:checked ~ .radio {
+  border-color: rgb(252, 52, 48);
+  background-color: rgb(252, 85, 81);
+}
+
+.metahtml.css13 input:checked ~ .radio:before {
+  opacity: 1;
+  transform: scale(0.5);
+}
+
+.metahtml.css13 [cr-field="checkbox-list"] span {
+  vertical-align: middle;
+}
+
+.metahtml.css13 [cr-field="checkbox-list"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.metahtml.css13 [cr-field="checkbox-list"] label + label {
+  margin-top: 7.333333333333333px;
+}
+
+.metahtml.css13 [cr-field="checkbox-visual"] {
+  overflow: hidden;
+}
+
+.metahtml.css13 [cr-field="checkbox-visual"] .items {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -20px;
+  justify-content: space-between;
+}
+
+.metahtml.css13 [cr-field="checkbox-visual"] .item {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 30%;
+}
+
+.metahtml.css13 [cr-field="checkbox-visual"] label {
+  position: relative;
+}
+
+.metahtml.css13 [cr-field="checkbox-visual"] .bgimage {
+  background-size: cover;
+  display: inline-block;
+  background-position: center;
+  border-radius: 50px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+}
+
+.metahtml.css13 [cr-field="checkbox-visual"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.metahtml.css13 [cr-field="checkbox-visual"] .tick {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(252, 85, 81, 0.75);
+  transition: all 300ms;
+  opacity: 0;
+}
+
+.metahtml.css13 [cr-field="checkbox-visual"] .tick svg {
+  opacity: 0;
+  transition: all 300ms;
+  max-width: 26px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.metahtml.css13 [cr-field="checkbox-visual"] .subname {
+  margin: 7px 0;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.metahtml.css13 [cr-field="checkbox-visual"] input:hover ~ .bgimage .tick,
+.metahtml.css13 [cr-field="checkbox-visual"] input:focus ~ .bgimage .tick {
+  opacity: 0.5;
+}
+
+.metahtml.css13 [cr-field="checkbox-visual"] input:checked ~ .bgimage .tick,
+.metahtml.css13 [cr-field="checkbox-visual"] input:checked ~ .bgimage .tick svg {
+  opacity: 1;
+}
+
+.screen-xs .metahtml.css13 [cr-field="checkbox-visual"] .item {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+
+.screen-xs .metahtml.css13 [cr-field="checkbox-visual"] .bgimage {
+  width: 25%;
+  padding-top: 25%;
+  vertical-align: middle;
+}
+
+.screen-xs .metahtml.css13 [cr-field="checkbox-visual"] .subname {
+  width: 75%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 5%;
+  margin-left: -4px;
+}
+
+.metahtml.css13 [cr-field="checkbox-input"] span {
+  vertical-align: middle;
+}
+
+.metahtml.css13 [cr-field="checkbox-input"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.metahtml.css13 [cr-field="radio-list"] span {
+  vertical-align: middle;
+}
+
+.metahtml.css13 [cr-field="radio-list"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.metahtml.css13 [cr-field="radio-list"] label + label {
+  margin-top: 7.333333333333333px;
+}
+
+.metahtml.css13 [cr-field="radio-visual"] {
+  overflow: hidden;
+}
+
+.metahtml.css13 [cr-field="radio-visual"] .items {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -20px;
+  justify-content: space-between;
+}
+
+.metahtml.css13 [cr-field="radio-visual"] .item {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 30%;
+}
+
+.metahtml.css13 [cr-field="radio-visual"] label {
+  position: relative;
+}
+
+.metahtml.css13 [cr-field="radio-visual"] .bgimage {
+  background-size: cover;
+  display: inline-block;
+  background-position: center;
+  border-radius: 50px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+}
+
+.metahtml.css13 [cr-field="radio-visual"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.metahtml.css13 [cr-field="radio-visual"] .tick {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(252, 85, 81, 0.75);
+  transition: all 300ms;
+  opacity: 0;
+}
+
+.metahtml.css13 [cr-field="radio-visual"] .tick svg {
+  opacity: 0;
+  transition: all 300ms;
+  max-width: 26px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.metahtml.css13 [cr-field="radio-visual"] .subname {
+  margin: 7px 0;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.metahtml.css13 [cr-field="radio-visual"] input:hover ~ .bgimage .tick {
+  opacity: 0.5;
+}
+
+.metahtml.css13 [cr-field="radio-visual"] input:checked ~ .bgimage .tick,
+.metahtml.css13 [cr-field="radio-visual"] input:checked ~ .bgimage .tick svg {
+  opacity: 1;
+}
+
+.screen-xs .metahtml.css13 [cr-field="radio-visual"] .item {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+
+.screen-xs .metahtml.css13 [cr-field="radio-visual"] .bgimage {
+  width: 25%;
+  padding-top: 25%;
+  vertical-align: middle;
+}
+
+.screen-xs .metahtml.css13 [cr-field="radio-visual"] .subname {
+  width: 75%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 5%;
+  margin-left: -4px;
+}
+
+.metahtml.css13 [cr-field="select-menu"] select {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 1;
+  color: black;
+  -webkit-appearance: none;
+}
+
+.metahtml.css13 [cr-field="select-menu"] .fa {
+  font-size: 20px;
+  line-height: 0;
+  opacity: 0.5;
+  vertical-align: middle;
+}
+
+.metahtml.css13 [cr-field="select-menu"] .flexgrid {
+  display: flex;
+  align-items: center;
+}
+
+.metahtml.css13 [cr-field="select-menu"] .flexgrid .left {
+  flex-grow: 1;
+  min-width: 50%;
+  word-wrap: break-word;
+}
+
+.metahtml.css13 [cr-field="file"] svg {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
+
+.metahtml.css13 [cr-field="file"] span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+.metahtml.css13 [cr-field="file"] input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 0;
+}
+
+.metahtml.css13 [cr-field="file"] .clean {
+  float: right;
+  opacity: 0.5;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.metahtml.css13 [cr-field="file"] .clean:hover {
+  opacity: 1;
+}
+
+.metahtml.css13 [cr-field="file"] .flexgrid {
+  display: flex;
+  align-items: center;
+}
+
+.metahtml.css13 [cr-field="file"] .flexgrid .center {
+  flex-grow: 1;
+  min-width: 50%;
+  word-wrap: break-word;
+}
+
+.metahtml.css13 [cr-field="result"] .flexgrid.align-sides {
+  display: flex;
+  align-items: center;
+}
+
+.metahtml.css13 [cr-field="result"] .flexgrid.align-sides .left .name {
+  margin-bottom: 0;
+}
+
+.metahtml.css13 [cr-field="result"] .flexgrid.align-center .left {
+  text-align: center;
+}
+
+.metahtml.css13 [cr-field="result"] .flexgrid.align-right .left {
+  text-align: right;
+}
+
+.metahtml.css13 [cr-field="result"] .flexgrid .right {
+  flex-grow: 1;
+  min-width: 25%;
+  word-wrap: break-word;
+  text-align: right;
+  font-size: 120%;
+}
+
+.metahtml.css13 [cr-field="result"] .flexgrid.align-left .right {
+  text-align: left;
+}
+
+.metahtml.css13 [cr-field="result"] .flexgrid.align-center .right {
+  text-align: center;
+}
+
+.metahtml.css13 [cr-field="result"] .flexgrid.align-right .right {
+  text-align: right;
+}
+
+.metahtml.css13 [cr-field="privacy-button"] .open {
+  text-align: center;
+  opacity: 0.5;
+  font-size: 80%;
+  cursor: pointer;
+}
+
+.metahtml.css13 [cr-field="privacy-button"] .open a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.metahtml.css13 [cr-field="privacy-checkbox"] {
+  font-size: 80%;
+}
+
+.metahtml.css13 [cr-field="privacy-checkbox"] span {
+  vertical-align: middle;
+}
+
+.metahtml.css13 [cr-field="privacy-checkbox"] a {
+  vertical-align: middle;
+  text-decoration: none;
+  border-bottom-width: 1px;
+  border-bottom-style: dashed;
+  color: inherit;
+  cursor: pointer;
+}
+
+.metahtml.css13 [cr-field="privacy-checkbox"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.metahtml.css13 [cr-field="privacy-text"] {
+  font-size: 80%;
+  text-align: center;
+}
+
+.metahtml.css13 [cr-field="privacy-text"] a {
+  text-decoration: none;
+  border-bottom-width: 1px;
+  border-bottom-style: dashed;
+  color: inherit;
+  cursor: pointer;
+}
+
+.metahtml.css13 [cr-field="hidden"] {
+  opacity: 0.25;
+}
+.metahtml.css14 [cr-field] {
+  padding-bottom: 14px;
+  font-size: 14px;
+  font-family: Open Sans;
+}
+
+.metahtml.css14 .name {
+  font-weight: normal;
+  font-family: Open Sans;
+  opacity: 0.8;
+  margin-bottom: 6.5px;
+  font-size: 13px;
+  word-wrap: break-word;
+  text-transform: uppercase;;
+  letter-spacing: 0.1em;;
+}
+
+.metahtml.css14 .form-control {
+  height: auto;
+  line-height: 1.2;
+  box-shadow: none;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 0px;
+  padding: 12px 9.6px;
+  font-size: 14px;
+  cursor: initial;
+}
+
+.metahtml.css14 .form-control:focus,
+.metahtml.css14 .form-control:focus-within {
+  border-color: rgb(252, 85, 81);
+  background-color: rgb(252, 252, 252);
+}
+
+.metahtml.css14 .form-control + .form-control {
+  margin-top: 10px;
+}
+
+.metahtml.css14 label {
+  font-weight: normal;
+  display: block;
+  cursor: pointer;
+}
+
+.metahtml.css14 textarea {
+  resize: vertical;
+}
+
+.metahtml.css14 .checkbox {
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  margin: 0 5.5px 0 0;
+  line-height: 0;
+  min-height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  background: white;
+  border: 2px solid rgba(0, 0, 0, 0.25);
+  position: relative;
+  transition: 300ms all;
+  border-radius: 2px;
+}
+
+.metahtml.css14 .checkbox svg {
+  width: 100%;
+  opacity: 0;
+  transform: scale(0);
+  transition: 300ms all;
+}
+
+.metahtml.css14 input:hover ~ .checkbox,
+.metahtml.css14 input:focus ~ .checkbox {
+  border-color: rgb(254, 170, 168);
+}
+
+.metahtml.css14 input:checked ~ .checkbox {
+  border-color: rgb(252, 52, 48);
+  background-color: rgb(252, 85, 81);
+}
+
+.metahtml.css14 input:active ~ .checkbox {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.metahtml.css14 input:checked ~ .checkbox svg {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.metahtml.css14 .radio {
+  margin: 0;
+  margin: 0 5.5px 0 0;
+  padding: 0;
+  line-height: 0;
+  width: 22px;
+  height: 22px;
+  min-height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  background: white;
+  border: 2px solid rgba(0, 0, 0, 0.25);
+  position: relative;
+  transition: 300ms all;
+  border-radius: 100px;
+}
+
+.metahtml.css14 .radio:before {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 0;
+  height: 100%;
+  content: '';
+  display: block;
+  background-color: white;
+  border-radius: 100px;
+  opacity: 0;
+  transform: scale(0);
+  transition: 300ms all;
+}
+
+.metahtml.css14 input:hover ~ .radio,
+.metahtml.css14 input:focus ~ .radio {
+  border-color: rgb(254, 170, 168);
+}
+
+.metahtml.css14 input:active ~ .radio {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.metahtml.css14 input:checked ~ .radio {
+  border-color: rgb(252, 52, 48);
+  background-color: rgb(252, 85, 81);
+}
+
+.metahtml.css14 input:checked ~ .radio:before {
+  opacity: 1;
+  transform: scale(0.5);
+}
+
+.metahtml.css14 [cr-field="checkbox-list"] span {
+  vertical-align: middle;
+}
+
+.metahtml.css14 [cr-field="checkbox-list"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.metahtml.css14 [cr-field="checkbox-list"] label + label {
+  margin-top: 7.333333333333333px;
+}
+
+.metahtml.css14 [cr-field="checkbox-visual"] {
+  overflow: hidden;
+}
+
+.metahtml.css14 [cr-field="checkbox-visual"] .items {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -20px;
+  justify-content: space-between;
+}
+
+.metahtml.css14 [cr-field="checkbox-visual"] .item {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 30%;
+}
+
+.metahtml.css14 [cr-field="checkbox-visual"] label {
+  position: relative;
+}
+
+.metahtml.css14 [cr-field="checkbox-visual"] .bgimage {
+  background-size: cover;
+  display: inline-block;
+  background-position: center;
+  border-radius: 50px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+}
+
+.metahtml.css14 [cr-field="checkbox-visual"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.metahtml.css14 [cr-field="checkbox-visual"] .tick {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(252, 85, 81, 0.75);
+  transition: all 300ms;
+  opacity: 0;
+}
+
+.metahtml.css14 [cr-field="checkbox-visual"] .tick svg {
+  opacity: 0;
+  transition: all 300ms;
+  max-width: 26px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.metahtml.css14 [cr-field="checkbox-visual"] .subname {
+  margin: 7px 0;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.metahtml.css14 [cr-field="checkbox-visual"] input:hover ~ .bgimage .tick,
+.metahtml.css14 [cr-field="checkbox-visual"] input:focus ~ .bgimage .tick {
+  opacity: 0.5;
+}
+
+.metahtml.css14 [cr-field="checkbox-visual"] input:checked ~ .bgimage .tick,
+.metahtml.css14 [cr-field="checkbox-visual"] input:checked ~ .bgimage .tick svg {
+  opacity: 1;
+}
+
+.screen-xs .metahtml.css14 [cr-field="checkbox-visual"] .item {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+
+.screen-xs .metahtml.css14 [cr-field="checkbox-visual"] .bgimage {
+  width: 25%;
+  padding-top: 25%;
+  vertical-align: middle;
+}
+
+.screen-xs .metahtml.css14 [cr-field="checkbox-visual"] .subname {
+  width: 75%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 5%;
+  margin-left: -4px;
+}
+
+.metahtml.css14 [cr-field="checkbox-input"] span {
+  vertical-align: middle;
+}
+
+.metahtml.css14 [cr-field="checkbox-input"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.metahtml.css14 [cr-field="radio-list"] span {
+  vertical-align: middle;
+}
+
+.metahtml.css14 [cr-field="radio-list"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.metahtml.css14 [cr-field="radio-list"] label + label {
+  margin-top: 7.333333333333333px;
+}
+
+.metahtml.css14 [cr-field="radio-visual"] {
+  overflow: hidden;
+}
+
+.metahtml.css14 [cr-field="radio-visual"] .items {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -20px;
+  justify-content: space-between;
+}
+
+.metahtml.css14 [cr-field="radio-visual"] .item {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 30%;
+}
+
+.metahtml.css14 [cr-field="radio-visual"] label {
+  position: relative;
+}
+
+.metahtml.css14 [cr-field="radio-visual"] .bgimage {
+  background-size: cover;
+  display: inline-block;
+  background-position: center;
+  border-radius: 50px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+}
+
+.metahtml.css14 [cr-field="radio-visual"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.metahtml.css14 [cr-field="radio-visual"] .tick {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(252, 85, 81, 0.75);
+  transition: all 300ms;
+  opacity: 0;
+}
+
+.metahtml.css14 [cr-field="radio-visual"] .tick svg {
+  opacity: 0;
+  transition: all 300ms;
+  max-width: 26px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.metahtml.css14 [cr-field="radio-visual"] .subname {
+  margin: 7px 0;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.metahtml.css14 [cr-field="radio-visual"] input:hover ~ .bgimage .tick {
+  opacity: 0.5;
+}
+
+.metahtml.css14 [cr-field="radio-visual"] input:checked ~ .bgimage .tick,
+.metahtml.css14 [cr-field="radio-visual"] input:checked ~ .bgimage .tick svg {
+  opacity: 1;
+}
+
+.screen-xs .metahtml.css14 [cr-field="radio-visual"] .item {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+
+.screen-xs .metahtml.css14 [cr-field="radio-visual"] .bgimage {
+  width: 25%;
+  padding-top: 25%;
+  vertical-align: middle;
+}
+
+.screen-xs .metahtml.css14 [cr-field="radio-visual"] .subname {
+  width: 75%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 5%;
+  margin-left: -4px;
+}
+
+.metahtml.css14 [cr-field="select-menu"] select {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 1;
+  color: black;
+  -webkit-appearance: none;
+}
+
+.metahtml.css14 [cr-field="select-menu"] .fa {
+  font-size: 20px;
+  line-height: 0;
+  opacity: 0.5;
+  vertical-align: middle;
+}
+
+.metahtml.css14 [cr-field="select-menu"] .flexgrid {
+  display: flex;
+  align-items: center;
+}
+
+.metahtml.css14 [cr-field="select-menu"] .flexgrid .left {
+  flex-grow: 1;
+  min-width: 50%;
+  word-wrap: break-word;
+}
+
+.metahtml.css14 [cr-field="file"] svg {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
+
+.metahtml.css14 [cr-field="file"] span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+.metahtml.css14 [cr-field="file"] input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 0;
+}
+
+.metahtml.css14 [cr-field="file"] .clean {
+  float: right;
+  opacity: 0.5;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.metahtml.css14 [cr-field="file"] .clean:hover {
+  opacity: 1;
+}
+
+.metahtml.css14 [cr-field="file"] .flexgrid {
+  display: flex;
+  align-items: center;
+}
+
+.metahtml.css14 [cr-field="file"] .flexgrid .center {
+  flex-grow: 1;
+  min-width: 50%;
+  word-wrap: break-word;
+}
+
+.metahtml.css14 [cr-field="result"] .flexgrid.align-sides {
+  display: flex;
+  align-items: center;
+}
+
+.metahtml.css14 [cr-field="result"] .flexgrid.align-sides .left .name {
+  margin-bottom: 0;
+}
+
+.metahtml.css14 [cr-field="result"] .flexgrid.align-center .left {
+  text-align: center;
+}
+
+.metahtml.css14 [cr-field="result"] .flexgrid.align-right .left {
+  text-align: right;
+}
+
+.metahtml.css14 [cr-field="result"] .flexgrid .right {
+  flex-grow: 1;
+  min-width: 25%;
+  word-wrap: break-word;
+  text-align: right;
+  font-size: 100%;
+}
+
+.metahtml.css14 [cr-field="result"] .flexgrid.align-left .right {
+  text-align: left;
+}
+
+.metahtml.css14 [cr-field="result"] .flexgrid.align-center .right {
+  text-align: center;
+}
+
+.metahtml.css14 [cr-field="result"] .flexgrid.align-right .right {
+  text-align: right;
+}
+
+.metahtml.css14 [cr-field="privacy-button"] .open {
+  text-align: center;
+  opacity: 0.5;
+  font-size: 80%;
+  cursor: pointer;
+}
+
+.metahtml.css14 [cr-field="privacy-button"] .open a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.metahtml.css14 [cr-field="privacy-checkbox"] {
+  font-size: 80%;
+}
+
+.metahtml.css14 [cr-field="privacy-checkbox"] span {
+  vertical-align: middle;
+}
+
+.metahtml.css14 [cr-field="privacy-checkbox"] a {
+  vertical-align: middle;
+  text-decoration: none;
+  border-bottom-width: 1px;
+  border-bottom-style: dashed;
+  color: inherit;
+  cursor: pointer;
+}
+
+.metahtml.css14 [cr-field="privacy-checkbox"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.metahtml.css14 [cr-field="privacy-text"] {
+  font-size: 80%;
+  text-align: center;
+}
+
+.metahtml.css14 [cr-field="privacy-text"] a {
+  text-decoration: none;
+  border-bottom-width: 1px;
+  border-bottom-style: dashed;
+  color: inherit;
+  cursor: pointer;
+}
+
+.metahtml.css14 [cr-field="hidden"] {
+  opacity: 0.25;
+}
+.btn.css15 { text-align: center } .btn.css15 { background-color: rgb(252, 85, 81);border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;border-style: solid;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px;border-right-width: 0px;border-color: rgb(251, 20, 15);padding-top: 14px;padding-bottom: 14px;font-size: 16px;color: rgb(255, 255, 255)!important; } .btn.css15:hover, .btn.css15.hover { background-color: rgb(252, 52, 48);border-color: rgb(210, 8, 3);color: rgb(255, 255, 255)!important; } .btn.css15:active, .btn.css15.active { background-color: rgb(252, 23, 18);border-color: rgb(236, 9, 3);color: rgb(255, 255, 255)!important; } .btn.css15:before {  } .btn.css15:active:before, .btn.css15.active:before { background-color: rgb(252, 23, 18); }
+.node.css16 .zigzag-bottom {    background: rgb(255, 214, 0);    background:         linear-gradient(45deg, rgb(255, 214, 0) 25%, rgba(255,214,0,0) 25%),        linear-gradient(315deg, rgb(255, 214, 0) 25%, rgba(255,214,0,0) 25%);}
+.node.css17 > .wrapper1 { background-color: rgb(255, 214, 0) }
+.node.css17  { color: #FFF }
+.node.css17  > .padding_top { padding-top: 20px }
+.node.css17  > .padding_bottom { padding-bottom: 20px }
+.node.css17 a { color: rgb(230, 197, 25) }
+.node.css18 > .wrapper1 { background-color: rgb(0, 0, 0); border-radius: 30px }
+.node.css18  { color: #FFF; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css18 a { color: rgb(230, 25, 25) }
+.node.css19  { color: #FFF; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 70px }
+.node.css19 a { color: rgb(230, 25, 25) }
+.textable.css20  { text-align: left; font-family: "TTNorms Regular"; font-size: 56px; line-height: 1.2; letter-spacing: 0em; opacity: 1 }
+.screen-xs .textable.css20  { text-align: center!important }
+.node.css21  { color: #FFF; padding-top: 25px; padding-bottom: 35px; padding-left: 5px; padding-right: 5px }
+.node.css21 a { color: rgb(230, 25, 25) }
+.textable.css22  { text-align: left; font-family: "Open Sans"; font-size: 16px; line-height: 1.6; letter-spacing: 0em; opacity: 0.5 }
+.screen-xs .textable.css22  { text-align: center!important }
+.btn.css23 { text-align: center } .btn.css23 { background-color: rgb(252, 85, 81);border-top-left-radius: 25px;border-top-right-radius: 25px;border-bottom-right-radius: 25px;border-bottom-left-radius: 25px;border-style: solid;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px;border-right-width: 0px;border-color: rgb(251, 20, 15);padding-top: 15px;padding-bottom: 15px;font-size: 12px;font-weight: bold;color: rgb(255, 255, 255)!important; } .btn.css23:hover, .btn.css23.hover { background-color: rgb(252, 52, 48);border-color: rgb(210, 8, 3);color: rgb(255, 255, 255)!important; } .btn.css23:active, .btn.css23.active { background-color: rgb(252, 52, 48);border-color: rgb(236, 9, 3);color: rgb(255, 255, 255)!important; } .btn.css23:before {  } .btn.css23:active:before, .btn.css23.active:before { background-color: rgb(252, 52, 48); }
+.metahtml.css24 .video-button3 {
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  border-radius: 100%;
+  line-height: 38px;
+  text-align: center;
+  font-size: 12.666666666666666px;
+  padding-left: 2.375px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  box-shadow: 0 6.666666666666667px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+.metahtml.css24 .video-button3-bg {
+  display: inline-block;
+  position: relative;
+}
+
+.metahtml.css24 .video-button3-bgimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+}
+
+.metahtml.css24 .video-button3-bgimg:before {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.metahtml.css24 .video-button3-bg img {
+  width: 637px;
+  max-width: 100%;
+}
+
+.metahtml.css24 .video-button3-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.metahtml.css24 .expan-controller + .expan {
+  display: none;
+}
+
+.metahtml.css24 .expan {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 250;
+}
+.modal.css25 .modal-dialog { width: 720px }
+.metahtml.css26 .modal2-root {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  background-clip: padding-box;
+  outline: none;
+  opacity: 0;
+  transform: translateY(-25px);
+  transition: 300ms all ease-out;
+}
+
+.metahtml.css26 .modal2-root.is-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+.node.css27  { color: #333; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px }
+.node.css27 a { color: rgb(230, 25, 25) }
+.node.css28 > .wrapper1 { background-color: rgb(20, 20, 20) }
+.node.css28  { color: #FFF; padding-top: 10px; padding-bottom: 10px; padding-left: 5px; padding-right: 5px }
+.node.css28 a { color: rgb(230, 25, 25) }
+.textable.css29  { text-align: center; font-family: "Open Sans"; font-size: 14px; line-height: 1.5999999999999999; letter-spacing: 0em; opacity: 1 }
+.screen-xs .textable.css29  { text-align: center!important }
+.node.css30 > .wrapper1 { background-color: rgb(255, 214, 0) }
+.node.css30  { color: #FFF }
+.node.css30  > .padding_top { padding-top: 60px }
+.node.css30  > .padding_bottom { padding-bottom: 90px }
+.node.css30 a { color: rgb(230, 197, 25) }
+.node.css31 .s-elements-cell { width: 33.333333333333336% }
+.node.css31 .s-elements-grid { margin: 0 -10px }
+.node.css31 .s-elements-cellwrapper { padding: 10px 10px }
+.screen-xs .node.css31 .s-elements-cell { width: 100%!important }
+.node.css32  { color: #FFF; padding-top: 5px; padding-bottom: 50px; padding-left: 5px; padding-right: 5px }
+.node.css32 a { color: rgb(230, 197, 25) }
+.textable.css33  { text-align: center; font-family: "TTNorms Regular"; font-size: 48px; line-height: 1.2; letter-spacing: 0em; opacity: 1 }
+.screen-xs .textable.css33  { text-align: center!important }
+.node.css34 > .wrapper1 { background-color: rgb(255, 255, 255); border-radius: 30px }
+.node.css34  { color: #333; padding-top: 30px; padding-bottom: 30px; padding-left: 30px; padding-right: 30px }
+.node.css34 a { color: rgb(230, 25, 25) }
+.node.css35  { color: #333; padding-top: 5px; padding-bottom: 0px; padding-left: 5px; padding-right: 5px }
+.node.css35 a { color: rgb(230, 25, 25) }
+.textable.css36  { text-align: left; font-family: "TTNorms Regular"; font-size: 12px; line-height: 1.2; letter-spacing: 0em; opacity: 1 }
+.screen-md .textable.css36  { text-align: left!important; font-family: "Courier New"!important; font-size: 12px!important }
+.screen-sm .textable.css36  { text-align: left!important; font-family: "Courier New"!important; font-size: 12px!important }
+.screen-xs .textable.css36  { text-align: center!important; font-family: "Courier New"!important; font-size: 12px!important }
+.node.css37  { color: #333; padding-top: 10px; padding-bottom: 15px; padding-left: 5px; padding-right: 5px }
+.node.css37 a { color: rgb(230, 25, 25) }
+.textable.css38  { text-align: left; font-family: "TTNorms Regular"; font-size: 21px; line-height: 1.2; letter-spacing: 0em; opacity: 1 }
+.screen-md .textable.css38  { text-align: left!important; font-size: 18px!important }
+.screen-sm .textable.css38  { text-align: left!important; font-size: 18px!important }
+.screen-xs .textable.css38  { text-align: center!important; font-size: 18px!important }
+.textable.css39  { text-align: left; font-family: "TTNorms Regular"; font-size: 14px; line-height: 1.2; letter-spacing: 0em; opacity: 1 }
+.screen-md .textable.css39  { text-align: left!important; font-family: "Open Sans"!important; font-size: 13px!important }
+.screen-sm .textable.css39  { text-align: left!important; font-family: "Open Sans"!important; font-size: 13px!important }
+.screen-xs .textable.css39  { text-align: center!important; font-family: "Open Sans"!important; font-size: 13px!important }
+.node.css40  { color: #333; padding-top: 15px; padding-bottom: 30px; padding-left: 5px; padding-right: 5px }
+.node.css40 a { color: rgb(230, 25, 25) }
+.textable.css41  { text-align: center; font-family: "Open Sans"; font-size: 24px; line-height: 1.4; letter-spacing: 0em; opacity: 1 }
+.screen-md .textable.css41  { font-size: 23px!important }
+.screen-sm .textable.css41  { font-size: 23px!important }
+.screen-xs .textable.css41  { text-align: center!important; font-size: 23px!important }
+.node.css42  { color: #333; padding-top: 5px; padding-bottom: 5px; padding-left: 25px; padding-right: 25px }
+.node.css42 a { color: rgb(230, 25, 25) }
+.textable.css43  { text-align: center; font-family: "Open Sans"; font-size: 16px; line-height: 1.6; letter-spacing: 0em; opacity: 1 }
+.screen-xs .textable.css43  { text-align: center!important }
+.node.css44  { color: #333; padding-top: 30px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css44 a { color: rgb(230, 25, 25) }
+.btn.css45 { text-align: center } .btn.css45 { background-color: rgb(252, 85, 81);border-top-left-radius: 25px;border-top-right-radius: 25px;border-bottom-right-radius: 25px;border-bottom-left-radius: 25px;border-style: solid;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px;border-right-width: 0px;border-color: rgb(251, 20, 15);padding-top: 15px;padding-bottom: 15px;font-size: 12px;font-weight: bold;color: rgb(255, 255, 255)!important; } .btn.css45:hover, .btn.css45.hover { background-color: rgb(252, 52, 48);border-color: rgb(210, 8, 3);color: rgb(254, 157, 154)!important; } .btn.css45:active, .btn.css45.active { background-color: rgba(43, 44, 50, 0);border-color: rgb(236, 9, 3);color: rgb(0, 0, 0)!important; } .btn.css45:before {  } .btn.css45:active:before, .btn.css45.active:before { background-color: rgba(43, 44, 50, 0); }
+.node.css46 > .wrapper1 { background-color: rgb(50, 43, 43); border-radius: 30px }
+.node.css46  { color: #FFF; padding-top: 30px; padding-bottom: 30px; padding-left: 30px; padding-right: 30px }
+.node.css46 a { color: rgb(230, 25, 25) }
+.node.css47  { color: #FFF; padding-top: 5px; padding-bottom: 0px; padding-left: 5px; padding-right: 5px }
+.node.css47 a { color: rgb(230, 25, 25) }
+.node.css48  { color: #FFF; padding-top: 10px; padding-bottom: 15px; padding-left: 5px; padding-right: 5px }
+.node.css48 a { color: rgb(230, 25, 25) }
+.node.css49  { color: #FFF; padding-top: 15px; padding-bottom: 30px; padding-left: 5px; padding-right: 5px }
+.node.css49 a { color: rgb(230, 25, 25) }
+.node.css50  { color: #FFF; padding-top: 5px; padding-bottom: 5px; padding-left: 25px; padding-right: 25px }
+.node.css50 a { color: rgb(230, 25, 25) }
+.node.css51  { color: #FFF; padding-top: 30px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css51 a { color: rgb(230, 25, 25) }
+.btn.css52 { text-align: center } .btn.css52 { background-color: rgb(252, 85, 81);border-top-left-radius: 25px;border-top-right-radius: 25px;border-bottom-right-radius: 25px;border-bottom-left-radius: 25px;border-style: solid;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px;border-right-width: 0px;border-color: rgb(251, 20, 15);padding-top: 15px;padding-bottom: 15px;font-size: 12px;font-weight: bold;color: rgb(255, 255, 255)!important; } .btn.css52:hover, .btn.css52.hover { background-color: rgb(252, 52, 48);border-color: rgb(210, 8, 3);color: rgb(254, 157, 154)!important; } .btn.css52:active, .btn.css52.active { background-color: rgba(43, 44, 50, 0);border-color: rgb(236, 9, 3);color: rgb(255, 255, 255)!important; } .btn.css52:before {  } .btn.css52:active:before, .btn.css52.active:before { background-color: rgba(43, 44, 50, 0); }
+.node.css53  { color: #FFF; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css53 a { color: rgb(230, 197, 25) }
+.textable.css54  { text-align: center; font-family: "TTNorms Regular"; font-size: 48px; line-height: 1.1; letter-spacing: 0em; opacity: 1 }
+.screen-xs .textable.css54  { text-align: center!important; font-size: 38px!important }
+.node.css55  { color: #FFF; padding-top: 25px; padding-bottom: 50px; padding-left: 5px; padding-right: 5px }
+.node.css55 a { color: rgb(230, 197, 25) }
+.textable.css56  { text-align: center; font-family: "Open Sans"; font-size: 18px; line-height: 1.4; letter-spacing: 0em; opacity: 0.5 }
+.screen-xs .textable.css56  { text-align: center!important }
+.node.css57 > .wrapper1 { background-color: rgb(0, 0, 0) }
+.node.css57  { color: #FFF; padding-top: 5px; padding-bottom: 19px; padding-left: 5px; padding-right: 5px }
+.node.css57 a { color: rgb(230, 30, 25) }
+.metahtml.css58 .spoiler2 {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0 6.666666666666667px 20px 0px rgba(52,60,68, 0.1);
+  color: rgb(25, 25, 25);
+  padding: 0 25px;
+}
+
+.metahtml.css58 .spoiler2-header {
+  padding: 15px 5px;
+  padding-right: 20px;
+  position: relative;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.metahtml.css58 .spoiler2-toggle {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0px;
+  font-size: 14px;
+}
+
+.metahtml.css58 .spoiler2-toggle i {
+  transition: all 0.2s ease-in-out;
+}
+
+.metahtml.css58 .spoiler2-header.is-expanded .spoiler2-toggle i {
+  transform: rotate(180deg);
+  margin-top: 6px;
+}
+
+.metahtml.css58 .spoiler2-container {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px 0;
+}
+.textable.css59  { text-align: left; font-family: "Open Sans"; font-size: 14px; line-height: 1.5999999999999999; letter-spacing: 0.1142857142857143em; opacity: 1 }
+.node.css60  { color: #333; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css60 a { color: rgb(230, 30, 25) }
+.textable.css61  { text-align: left; font-family: "Open Sans"; font-size: 16px; line-height: 1.5; letter-spacing: 0em; opacity: 1 }
+.node.css62  { color: #FFF; padding-top: 10px; padding-bottom: 10px; padding-left: 5px; padding-right: 5px }
+.node.css62 a { color: rgb(230, 197, 25) }
+.node.css63 > .wrapper1 { background-color: rgb(255, 214, 0) }
+.node.css63  { color: #FFF }
+.node.css63  > .padding_top { padding-top: 60px }
+.node.css63  > .padding_bottom { padding-bottom: 100px }
+.node.css63 a { color: rgb(230, 197, 25) }
+.node.css64 > .wrapper1 { background-color: rgba(252, 85, 81, 0) }
+.node.css64  { color: #FFF; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css64 a { color: rgb(230, 30, 25) }
+.node.css65 > .wrapper1 { background-color: rgb(0, 0, 0) }
+.node.css65  { color: #FFF }
+.node.css65  > .padding_top { padding-top: 33px }
+.node.css65  > .padding_bottom { padding-bottom: 33px }
+.node.css65 a { color: rgb(230, 197, 25) }
+.textable.css66  { text-align: left; font-family: "TTNorms Regular"; font-size: 18px; line-height: 1.4; letter-spacing: 0em; color: rgb(252, 85, 81); opacity: 1 }
+.screen-xs .textable.css66  { text-align: center!important }
+.node.css67  { color: #FFF; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.screen-xs .node.css67  { padding-top: 13px!important; padding-bottom: 20px!important }
+.node.css67 a { color: rgb(230, 197, 25) }
+.textable.css68  { text-align: right; font-family: "Open Sans"; font-size: 12px; line-height: 1.8666666666666665; letter-spacing: 0em; opacity: 1 }
+.screen-md .textable.css68  { text-align: right!important; opacity: 1!important }
+.screen-sm .textable.css68  { text-align: right!important; opacity: 1!important }
+.screen-xs .textable.css68  { text-align: center!important; opacity: 1!important }
+.soc-icon.css69 .link .bg {border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;border-bottom-left-radius: 5px;width: 41px;height: 41px;padding: 8px;border-style: solid;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px;border-right-width: 0px;color: rgb(139, 144, 156);border-color: rgb(0, 79, 201);background: rgba(0, 99, 251, 0);}.soc-icon.css69 .link:hover .bg {color: rgb(255, 255, 255);border-color: rgb(0, 59, 151);background: rgba(0, 79, 201, 0);}.soc-icon.css69 .link:active .bg {color: rgb(255, 255, 255);border-color: rgb(0, 59, 151);background: rgba(0, 79, 201, 0);}.soc-icon.css69 span { line-height: 41px }
+.area.screen-lg { min-width: 1200px; }.area.screen-lg .container { width: 1130px; }.area.screen-lg .container.soft { max-width: 1130px; }.area.screen-md { min-width: 960px; }.area.screen-md .container { width: 910px; }.area.screen-md .container.soft { max-width: 910px; }.area.screen-sm { min-width: 720px; }.area.screen-sm .container { width: 670px; }.area.screen-sm .container.soft { max-width: 670px; }.area.screen-xs .container { max-width: 687px; padding: 0 15px; }
